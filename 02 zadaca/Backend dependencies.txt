@@ -1,0 +1,7 @@
+npm install -g nodemon 
+npm install -g express  
+npm install express --save   
+npm install uuidv4
+
+
+const { uuid } = require('uuidv4');
