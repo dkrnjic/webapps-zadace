@@ -2,6 +2,9 @@ npm install -g nodemon
 npm install -g express  
 npm install express --save   
 npm install uuidv4
+npm init
+
+nodemon ./server.js localhost 8080
 
 
 const { uuid } = require('uuidv4');
